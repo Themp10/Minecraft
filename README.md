@@ -4,14 +4,18 @@ THis repo allows to set up easily a minecraft Server
 
 ## 1 Clone the repo
 
-In the project directory, you can run:
+clone the repo :  git clone https://github.com/Themp10/Minecraft.git
 
-### `npm start`
+### 2 Edit Server Properties
 
-Runs the app in the development mode.\
+Go to server.properties file, and edit according to what you want
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### 3 Start.bat
+
+in the strat.bat file java -Xmx4G -Xmx4G -jar spigot.jar
+change 4g TO wanted RAM ex : -Xmx2G -Xmx2G for 2gb of ram
+add -nogui if dont wwant gui
